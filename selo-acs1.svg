@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="140" viewBox="0 0 140 140">
+  <circle cx="70" cy="70" r="68" stroke="#222" stroke-width="4" fill="#fafafa"/>
+  <text x="50%" y="45%" dominant-baseline="middle" text-anchor="middle" font-size="20" font-family="Segoe UI" fill="#0D0D0D" font-weight="bold">ACS1</text>
+  <text x="50%" y="60%" dominant-baseline="middle" text-anchor="middle" font-size="12" font-family="Segoe UI" fill="#555">Selo Institucional</text>
+  <text x="50%" y="75%" dominant-baseline="middle" text-anchor="middle" font-size="10" font-family="Segoe UI" fill="#999">acs1-fp-a12b34c</text>
+</svg>
