@@ -45,7 +45,19 @@
   </style>
 </head>
 <body>
-
+<section class="lang-select">
+    <label for="lang-selector">🌐 Selecione o idioma:</label>
+    <select id="lang-selector" onchange="changeLanguage(this.value)">
+      <option value="pt" selected>Português 🇧🇷</option>
+      <option value="en">English 🇺🇸</option>
+    </select>
+    <script>
+      function changeLanguage(lang) {
+        if (lang === "en") window.location.href = "index-en.html";
+        else window.location.href = "index.html";
+      }
+    </script>
+  </section>
   <header>
     <h1>🌌 ACS1 Webstudio</h1>
     <p><strong>Ecossistema de Inteligências Verticais</strong></p>
@@ -112,21 +124,6 @@
     <h2>📘 Plano de Negócios completo</h2>
    <a href="docs/pitch.pdf" download> 📄 Baixar PDF institucional com proposta estratégica e orçamento</a></p>
   </section>
-
-  <section class="lang-select">
-    <label for="lang-selector">🌐 Selecione o idioma:</label>
-    <select id="lang-selector" onchange="changeLanguage(this.value)">
-      <option value="pt" selected>Português 🇧🇷</option>
-      <option value="en">English 🇺🇸</option>
-    </select>
-    <script>
-      function changeLanguage(lang) {
-        if (lang === "en") window.location.href = "index-en.html";
-        else window.location.href = "index.html";
-      }
-    </script>
-  </section>
-
   <section>
     <h2>🤝 Convite RFP · Integração Técnica Colaborativa</h2>
     <p>A ACS1 Webstudio convida desenvolvedores e equipes técnicas a propor soluções que possam ser integradas como <strong>IAs Verticais</strong> ao ecossistema.</p>
