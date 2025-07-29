@@ -1,28 +1,19 @@
-# Pitch Institucional — ACS1 Webstudio
+# 🌌 ACS1 Webstudio · Ecossistema de Inteligências Verticais
 
-Repositório oficial da apresentação institucional da ACS1 Webstudio, consolidando identidade jurídica, arquitetura de soluções com IA Verticais, narrativa institucional e arte visual em GitHub Pages.
+A ACS1 Webstudio é um estúdio institucional brasileiro focado na criação de módulos de IA vertical com propósito específico, identidade funcional e integração pública via rota digital.
 
-## ✨ IAs Verticais
+Explore o pitch institucional, a chamada pública de colaboração técnica (RFP) e nosso plano de negócios:
 
-- Finanças IA
-- Contratos IA
-- CyberScudo
-- LogiFiscal™
-- MonetizaIA
-- FidelizaIA
-- ProcessaIA
-- Copilot Layer
-- **App Builder IA** ← nova inclusão
+🔗 [acs1webstudio.github.io/pitch](https://acs1webstudio.github.io/pitch)
 
-> A App Builder IA transforma planilhas em aplicativos com identidade visual, integração e propósito — onde dados viram experiências.
+## 📁 Estrutura do repositório
 
-## 🖋️ Assinatura institucional
+- `index.html` — página principal em português  
+- `index-en.html` — versão internacional  
+- `rfp.html` — chamada técnica RFP  
+- `about.html` — identidade e manifesto  
+- `/docs/` — PDFs institucionais e NDA  
+- `/assets/` — imagens e diagrama orbital
 
-Fundador: **Adauto C. Santos**  
-Fingerprint ACS1: `acs1-fp-a12b34c`  
-Emitido em: 15/07/2025
-
-## 🌐 Rota pública
-
-Após ativação do GitHub Pages:  
-**https://acs1webstudio.github.io/pitch/**
+📩 contato@acs1webstudio.tech · Brasília, DF  
+🖋️ Fundador: Adauto C. Santos · CNPJ: 04.074.958/0001-88
