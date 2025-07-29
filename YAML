@@ -1,0 +1,29 @@
+# .github/workflows/rfp-review.yml
+name: 🧠 RFP Proposal Validator · ACS1
+
+on:
+  pull_request:
+    paths:
+      - 'rfp/**.md'
+      - 'rfp/**.html'
+
+jobs:
+  validate-rfp:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🔍 Checkout do código
+        uses: actions/checkout@v4
+
+      - name: 📑 Verificar estrutura do arquivo
+        run: |
+          echo "➡️ Checando presença de metadados..."
+          grep -q "Título:" rfp/*.md || echo "⚠️ Título ausente"
+          grep -q "Autor:" rfp/*.md || echo "⚠️ Autor ausente"
+
+      - name: 🎨 Validação visual básica
+        run: |
+          echo "🌈 Verificando uso de elementos visuais padrão..."
+          grep -q "<section" rfp/*.html || echo "⚠️ HTML fora do padrão"
+
+      - name: ✅ Finalização
+        run: echo "🧠 Proposta RFP analisada com critérios técnicos e visuais"
